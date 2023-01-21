@@ -10,5 +10,4 @@ export const getRandomPrompt = () => {
 
 export const downloadImage = async(prompt, photo) => {
     FileSaver.saveAs(photo, `download_Emage_${prompt.slice(0, 15)}.png`);
-
 }
